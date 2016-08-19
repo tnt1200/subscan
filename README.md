@@ -9,7 +9,7 @@ Subdomain brute force based on Python 3.5
 ## Usage
 
 ```
-usage: python3 subscan [options]
+usage: python3 subscan.py [options]
 
 Subdomain Scan
 
@@ -24,6 +24,7 @@ optional arguments:
 
 ## TODO
 
-* custom dns server
-* DNS Wild Card checks
-* DNS Zone Transfer checks
+- [x] DNS Wild Card checks
+- [ ] DNS Zone Transfer checks
+- [ ] customizable dns server
+- [ ] customizable semaphore
